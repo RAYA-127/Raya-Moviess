@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAYA Movies | Home</title>
+        <link rel="icon" href="raya.jpg">
+        <link rel="stylesheet" href="style.css"
+
+</head>
+<style>
+
+</style>
+<body>
+
+    <header>    
+        <div class="navbar">
+            <div class="brand">
+                <img src="raya.jpg" alt="Raya Logo" class="mini-logo">
+                <span class="brand-name">RAYA <br> MOVIES</span>
+            </div>
+            
+       
+              
+             <nav class="navbar">
+  
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index1.html" class="home">Home</a></li>
+    <li><a href="about.html" class="about">About</a></li>
+    <li><a href="terms.html" class="terms">Terms & Conditions</a></li>
+  </ul>
+</nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="glass-card">
+            <div class="logo-container">
+                <img src="raya.jpg" alt="RAYA Movies Logo" class="main-logo">
+            </div>
+            <h1>RAYA Movies</h1>
+            <p>Experience cinema like never before.</p>
+            
+            <a href="index1.html" class="shiny-btn">
+                Click here <span class="arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+</body>
+<script>
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  // This line adds 'active' if it's missing, and removes it if it's there
+  navLinks.classList.toggle('active');
+});
+
+</script>
+</html>

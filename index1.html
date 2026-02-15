@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content   ="width=device-width, initial-scale=1.0">
+    <title>RAYA Movies | Sites</title>
+    <link rel="icon" href="raya.jpg">
+</head>
+
+<style>
+    body {
+         background-image: url('f.webp');
+         color: aliceblue;
+         object-fit: cover;
+         background-size:cover;
+         background-position: center;
+         background-attachment: fixed;
+
+    }
+    .dashboard {
+        height: 100px;
+        border-radius:43px 40px 40px;
+        padding-left:2px;
+        background:linear-gradient(black,rgb(29, 29, 29));
+        height: 90px;
+    }
+    .user {
+        justify-content: space-between;
+        border-radius:40px;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+
+
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: white;
+    }
+
+    .avatar {
+        border-radius: 100%;
+        height: 60px;
+        border: 1px solid rgb(255, 255, 255);
+        margin-bottom: 100px;
+        margin-left:4px;
+        
+    }
+    .h1 {
+        padding-right: 1px;
+    animation: animate 10s linear infinite;
+    background:cover;
+    background-clip: text;    
+    color: transparent;
+    font-size: 18px;
+    padding-bottom: 87px;
+     background-image: url('https://thumbs.dreamstime.com/b/word-wednesday-animation-black-background-approaches-moves-away-animation-day-week-wednesday-word-wednesday-135576714.jpg');
+    }
+
+
+@keyframes animate {
+    to{
+        background-position-x: -500px ;
+    }
+
+}
+    
+
+.st {
+    color: aliceblue;
+}
+
+.ga {
+    color: aliceblue;
+}
+.gap:hover {
+  border: 2px solid pink;
+  width: 70px;
+  border:2px solid pink;
+   background-color: rgb(255, 255, 255);    border-radius: 25px;
+    box-shadow: 0 0 25px rgb(19, 20, 20);
+    transform: translateY(2px);
+
+}
+
+.ve {
+    color: aliceblue;
+}.mo {
+    color: aliceblue;
+}.ne {
+    color: aliceblue;
+}.fi {
+    color: aliceblue;
+}
+
+.st:hover {
+    border:2px solid pink;
+   background-color: rgb(8, 8, 8);    border-radius: 25px;
+    box-shadow: 0 0 25px rgb(225, 229, 230);
+    transform: translateY(2px);
+}.ve:hover {
+    border:2px solid pink;
+   background-color: rgb(10, 10, 10);    border-radius:25px;
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    transform: translateY(2px);
+}
+
+.ne:hover {
+    border:2px solid pink;
+   background-color: rgb(0, 0, 0);    border-radius: 25px;
+    box-shadow: 0 0 25px rgb(253, 255, 255);
+    transform: translateY(2px);
+}
+
+.mo:hover {
+    border:2px solid pink;
+   background-color: rgb(3, 3, 3);    border-radius: 25px;
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    transform: translateY(2px);
+}
+
+.fi:hover {
+    border:2px solid pink;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;    
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    transform: translateY(2px);
+}
+
+.gap {
+    gap: 40px;
+    padding-left: 10px;
+}
+
+
+:root {
+    --butterfly-color: #ff00ff;
+}
+.butterfly {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform-style:preserve-3d;
+    transform: rotateX(60deg); 
+    animation: fly 4s infinite linear;
+}
+
+.wing {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff00ff;
+    border-radius:100% 100% 40% 40%;
+    opacity: 0.1;
+}
+.left {
+    left: 0;
+   transform-origin: right center;
+   animation: flap-left 0.5s infinite ;
+   
+}
+.right {
+    right: 0;
+    transform-origin:left center;
+    animation :right 0.5s infinite ease-in-out;
+}
+.butterfly-container {
+    width: 40px;
+}
+
+@keyframes flap-left {
+    0% , 100% {
+        transform: rotateY(9deg);
+    }
+    50% {
+        transform: rotateY(-80deg);
+    }
+    }
+
+    @keyframes right {
+    0% , 100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(70deg);
+    }
+    }
+
+
+@keyframes fly {
+  0% {
+     transform: translate(-200px, 100px) rotateX(45deg);
+ }
+  50% {
+     transform: translate(0, -50px) rotateX(45deg);
+ }
+  100% { 
+    transform: translate(200px, 100px) rotateX(45deg);
+ }
+}
+
+    
+@keyframes pulse-glow {
+  0%, 100% { filter: drop-shadow(0 0 10px var(--glow-color)); }
+  50% { filter: drop-shadow(0 0 30px var(--glow-color)) brightness(1.5); }
+}
+
+
+@keyframes hover {
+  0%, 100% { transform: translateY(0) rotateX(45deg); }
+  50% { transform: translateY(-20px) rotateX(45deg); }
+}
+
+.para-graph {
+    text-align: center;
+    padding-right: 40px;
+    flex-direction:row;
+    display: flex;
+    gap: 20px;
+}
+
+.para .p {
+    flex:1;
+}
+
+.video {
+    display: flex;  
+    flex-direction:column ;
+    text-align: center;
+    gap: 15px;
+    margin-top: 30px;
+    background-color: rgba(94, 80, 82, 0.219);
+    border-radius: 20px;
+    color: aliceblue;
+    border: 2px solid;
+}
+.video2 {  
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    background-color: rgba(94, 80, 82, 0.219);
+    border-radius: 20px;
+    color: aliceblue;
+    border: 2px solid;
+    flex-direction: column;
+}
+
+.video3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(94, 80, 82, 0.219);
+    border-radius: 20px;
+    color: aliceblue;
+    border: 2px solid;
+}
+
+.to {
+    box-shadow:0 0 10px #ffffff;
+    color: aliceblue;
+    height: 25px;   
+    align-items: center;
+    text-align: center;
+    border-radius: 30px 30px;
+    border: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    padding-left: 8px ;
+    padding-right: 8px;
+}
+.to:hover {
+    background-color: #2d2e2e;
+    color: rgb(255, 255, 255);
+}
+.t {
+    text-align: center;
+}
+.nav{
+      text-align: center;
+    margin-bottom:70px;
+    margin-left:8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+.terms {
+      margin-bottom: 30px;
+      place-content: center;
+      place-items: center;
+      text-align: center;
+   align-items: center;
+   text-decoration: none;
+   position: center;
+    justify-content: center;
+
+    }
+    .home {
+      gap: 30px;
+      color: rgb(0, 0, 0);
+      padding-right: 10px;
+      text-align: center;
+      font-size: 20px;
+            text-decoration: none;
+      text-align: center;
+    }
+
+
+.con{
+      color: rgb(0, 0, 0);
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: center;
+      text-align: center;
+   font-size: 18px;
+    }
+    .about{
+              text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      text-align: center;
+      text-align: center;
+      padding-right: 40px;
+      flex-direction: row;
+    }
+.home:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.con:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.about:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+background: linear-gradient(45deg, #434343, #000000);  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+/* 1. Hide Hamburger on Desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+  border-radius: 20px;
+  
+   
+
+}
+
+.hamburger span {
+  width: 25px;
+  border-radius: 50px;
+  height: 3px;
+  background-color: white;
+}
+.home{
+    color:white;
+  }
+  .about{
+    color:white;
+  }
+  .terms {
+    color:white;
+  }
+  .home:hover{
+    background-color:black;
+    color:white;box-shadow:4px 5px black;
+    border-radius:10px;
+  }
+
+    .about:hover{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    box-shadow:4px 5px black;
+    width:40px;
+  }
+    .terms:hover{
+    background-color:black;
+    color:white;box-shadow:4px 5px black;
+    border-radius:10px;
+  }
+
+/* 2. Mobile Styles (Media Query) */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex; /* Show hamburger on mobile */
+  }
+
+  .nav-links {
+    display: none; /* Hide links by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    margin-top:20px;
+    border-radius:70px;
+background: linear-gradient(45deg, #434343, #000000);    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .home{
+    color:white;
+  }
+  .about{
+    color:white;
+  }
+  .terms {
+    color:white;
+  }
+  .home:hover{
+    background-color:black;
+    color:white;box-shadow:4px 5px black;
+    border-radius:10px;
+  }
+
+    .about:hover{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    box-shadow:4px 5px black;
+    width:40px;
+  }
+    .terms:hover{
+    background-color:black;
+    color:white;box-shadow:4px 5px black;
+    border-radius:10px;
+  }
+
+  /* 3. The 'Active' class (Controlled by JS) */
+  .nav-links.active {
+    display: flex; /* Shows the menu when clicked */
+  }
+}
+.set {
+    padding-bottom: 90px;
+    margin-left: 50px;
+}
+</style>
+<body>
+    
+<div class="dashboard">
+<div class="user">
+<div class="image">
+    <img src="raya.jpg" alt="avatar" class="avatar">
+    
+    
+
+    
+    <div class="h1">   
+ <h2>RAYA<br>Movies</h2>     
+   
+
+    </div>
+    
+
+    <div class="set">
+              
+             <nav class="navbar">
+  
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index1.html" class="home">Home</a></li>
+    <li><a href="about.html" class="about">About</a></li>
+    <li><a href="terms.html" class="terms">Terms & Conditions</a></li>
+  </ul>
+</nav>
+         </div>
+
+        
+       </div>
+          </div>
+    </div>
+<div class="video">
+<a href="https://streamex.net/search" class="st"><h3>StreamX</h3></a>
+<a href="https://vegamovies13.com/" class="ve"><h3>VegaMovies</h3></a>
+<a href="https://www.5movierulz.supply/category/telugu-featured/" class="mo"><h3>MoviezRulz</h3></a>
+<a href="https://net20.cc/home" class="ne"><h3>NetMirror</h3></a>
+<a href="https://www.filmyzilla30.com/"  class="fi"><h3>FilmyZilla</h3></a>
+<a href="https://solarmoviesz.com/home"  class="fi"><h3>Solormovies</h3></a>
+
+</div>
+
+<div class="video2">
+<a href="https://new3.hdhub4u.fo/?utm=mn"  class="fi"><h3>HDHub4u</h3></a>
+<a href="https://123mkv.city/"  class="fi"><h3>123mv</h3></a>
+<a href="https://luxmovies.garden/"  class="fi"><h3>LuxMovies</h3></a>
+<a href="https://www.30filmywap.com/"  class="fi"><h3>FilmyWap</h3></a>
+<a href="https://www.crackle.com.in/"  class="fi"><h3>Crackle</h3></a>
+<a href="https://losmovies.dev/movies/movies"  class="fi"><h3>Cmovies</h3></a>
+<a href="https://www.moviezwap.sarl/category/Telugu-(2026)-Movies.html"  class="fi"><h3>MoviezRulz</h3></a>
+</div>
+
+
+<div class="video3">
+<a href="https://hdmovie2.education/"  class="fi"><h3>HDmovies</h3></a> 
+<a href="https://4khdhub.dad/"  class="fi"><h3>4khdhub</h3></a>
+<a href="https://todaypk.com.in/"  class="fi"><h3>todaypk</h3></a>
+<a href="https://www.5movierulz.supply/category/telugu-featured/"  class="fi"><h3>movierulz</h3></a>
+<a href="https://telugupalakamovie.com/"  class="fi"><h3>Telugupalaka</h3></a>
+<a href="https://wvv-fmovies.com/home/"  class="fi"><h3>Fmovies</h3></a>
+
+</div>
+
+   
+
+<div class="butterfly-container">
+  <div class="butterfly">
+    <div class="wing left"></div>
+    <div class="wing right"></div>
+  </div>
+</div>
+
+
+
+<div class="t">
+<a href="index.html" class="to">back to home</a>
+</div>
+</body>
+<script>
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  // This line adds 'active' if it's missing, and removes it if it's there
+  navLinks.classList.toggle('active');
+});
+
+</script>
+</html>
