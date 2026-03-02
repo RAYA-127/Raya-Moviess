@@ -352,8 +352,9 @@
 /* General Navbar Styles */
 .navbar {
      border-radius:35px;
-    height:50;
+    height:40;
     justify-content: flex-end;
+    display:flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
@@ -361,7 +362,8 @@ background: linear-gradient(45deg, #434343, #000000);  color: white;
 }
 
 .nav-links {
-    height:50;
+    height:40;
+    display:flex;
     justify-content: flex-end;
      border-radius:35px;
   list-style: none;
@@ -469,6 +471,12 @@ background: linear-gradient(45deg, #434343, #000000);    width: 100%;
     padding-bottom: 90px;
     margin-left: 50px;
 }
+    .changeit {
+      display:flex;
+        justify-content:flex-end;
+        align-items:center;
+        height:50px;
+    }
 </style>
 <body>
     
@@ -497,13 +505,14 @@ background: linear-gradient(45deg, #434343, #000000);    width: 100%;
     <span></span>
     <span></span>
   </div>
-
-  <ul class="nav-links" id="nav-links">
+<div class="changeit">
+  <ul class="nav-links">
     <li><a href="index1.html" class="home">Home</a></li>
     <li><a href="about.html" class="about">About</a></li>
     <li><a href="terms.html" class="terms">Terms & Conditions</a></li>
   </ul>
 </nav>
+    </div>
          </div>
 
         
@@ -568,6 +577,7 @@ hamburger.addEventListener('click', () => {
 </script>
 
 </html>
+
 
 
 
